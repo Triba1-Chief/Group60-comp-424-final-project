@@ -27,3 +27,24 @@
 !/agents/student_agent.py
 
 !/game_rules.txt
+
+# Group 60 development files
+!/INTERFACES.md
+!/TEAM_PLAN.md
+
+# Evaluation development
+!/evaluation/
+!/evaluation/**
+
+# Testing scripts
+!/tests/
+!/tests/**
+
+# Experimental results
+!/results/
+!/results/**
+
+# Never track virtual environments
+/.venv/
+/.venv311/
+/.venv*/

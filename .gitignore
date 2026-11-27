@@ -28,23 +28,24 @@
 
 !/game_rules.txt
 
-# Group 60 development files
-!/INTERFACES.md
-!/TEAM_PLAN.md
 
-# Evaluation development
+#Evaluation development
 !/evaluation/
 !/evaluation/**
 
-# Testing scripts
+#Testing scripts
 !/tests/
 !/tests/**
 
-# Experimental results
+#Experimental results
 !/results/
 !/results/**
 
-# Never track virtual environments
+#Virtual environments
 /.venv/
 /.venv311/
-/.venv*/
+/.venv*
+
+#Python generated files
+__pycache__/
+*.py[cod]
